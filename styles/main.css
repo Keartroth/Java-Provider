@@ -2,8 +2,13 @@
 @import './elements/employee.css';
 @import './elements/equipment.css';
 @import './elements/product.css';
+@import './elements/footer.css';
 
 /* General style commands */
+#company {
+    background-color: deepskyblue;
+}
+
 .container {
     display: flex;
 }
