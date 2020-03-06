@@ -1,0 +1,6 @@
+/* @css style sheets */
+@import './elements/employee.css';
+
+.container {
+    display: flex;
+}
