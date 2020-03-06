@@ -1,6 +1,8 @@
 /* @css style sheets */
 @import './elements/employee.css';
+@import './elements/equipment.css';
 
+/* General style commands */
 .container {
     display: flex;
 }
