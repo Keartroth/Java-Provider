@@ -1,6 +1,7 @@
 /* @css style sheets */
 @import './elements/employee.css';
 @import './elements/equipment.css';
+@import './elements/product.css';
 
 /* General style commands */
 .container {
