@@ -1,25 +1,22 @@
 /* @css style sheets */
+@import './elements/footer.css';
 @import './elements/employee.css';
 @import './elements/equipment.css';
 @import './elements/product.css';
-@import './elements/footer.css';
 
 /* General style commands */
 body {
     background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 #company {
     background-color: burlywood;
-}
-
-.container {
-    display: flex;
-}
-
-#company {
     display: flex;
     font-size: 2.5em;
     text-align: center;
@@ -31,6 +28,18 @@ body {
 
 #company p {
     margin: auto;
+}
+
+.container {
+    display: flex;
+}    
+
+#container--employees {
+    padding-bottom: 7%;
+}
+
+#container--products {
+    padding-top: 7%;
 }
 
 #container--side {
