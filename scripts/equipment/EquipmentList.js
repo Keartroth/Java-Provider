@@ -1,7 +1,7 @@
 import { equipment } from "./Equipment.js";
 import { useEquipment } from "./equipmentDataProvider.js";
 
-const contentElement = document.querySelector(".container--equipment");
+const contentElement = document.querySelector("#container--equipment");
 
 export const equipmentList = () => {
     const arrayOfEquipmentObjects = useEquipment();

@@ -1,5 +1,5 @@
 .employee {
-    border: 3px solid deepskyblue;
+    border: 3px solid chocolate;
     flex-wrap: wrap;
     margin: 5px auto;
     max-height: 150px;
@@ -7,7 +7,7 @@
     padding: 15px 25px;
 }
 
-.container--employees {
+#container--employees {
     display: flex;
     flex-wrap: wrap;
     margin-left: auto;
