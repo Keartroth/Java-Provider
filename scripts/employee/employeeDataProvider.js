@@ -25,7 +25,7 @@ const employees = [
         lastName: "Brownlee",
         jobTitle: "Dishwasher",
         hoursScheduled: 200,
-        hoursWorked: 100
+        hoursWorked: 199
     },
     {
         id: 4,
@@ -33,15 +33,15 @@ const employees = [
         lastName: "Purry",
         jobTitle: "Greeter",
         hoursScheduled: 0,
-        hoursWorked: -10
+        hoursWorked: -1
     },
     {
         id: 5,
         firstName: "Kitty",
         lastName: "Baby",
         jobTitle: "Barista",
-        hoursScheduled: 10,
-        hoursWorked: 2
+        hoursScheduled: 0,
+        hoursWorked: -2
     },
     {
         id: 6,
@@ -49,7 +49,7 @@ const employees = [
         lastName: "Shhhhhhhheaffer",
         jobTitle: "Hipster Sweater Representative",
         hoursScheduled: 201,
-        hoursWorked: 199
+        hoursWorked: 1
     }
 ]
 
