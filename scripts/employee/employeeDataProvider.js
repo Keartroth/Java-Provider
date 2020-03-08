@@ -8,42 +8,48 @@ const employees = [
         firstName: "Madi",
         lastName: "Peper",
         jobTitle: "I own this bish",
-        hoursScheduled: 2
+        hoursScheduled: 2,
+        hoursWorked: 0
     },
     {
         id: 2,
         firstName: "Mo",
         lastName: "Silvera",
         jobTitle: "Co-own this bish",
-        hoursScheduled: 2
+        hoursScheduled: 2,
+        hoursWorked: 0
     },
     {
         id: 3,
         firstName: "Steve",
         lastName: "Brownlee",
         jobTitle: "Dishwasher",
-        hoursScheduled: 200
+        hoursScheduled: 200,
+        hoursWorked: 100
     },
     {
         id: 4,
         firstName: "Kitty",
         lastName: "Purry",
         jobTitle: "Greeter",
-        hoursScheduled: 0
+        hoursScheduled: 0,
+        hoursWorked: -10
     },
     {
         id: 5,
-        firstName: "White",
-        lastName: "Board",
+        firstName: "Kitty",
+        lastName: "Baby",
         jobTitle: "Barista",
-        hoursScheduled: 10
+        hoursScheduled: 10,
+        hoursWorked: 2
     },
     {
         id: 6,
         firstName: "Adam",
         lastName: "Shhhhhhhheaffer",
         jobTitle: "Hipster Sweater Representative",
-        hoursScheduled: 201
+        hoursScheduled: 201,
+        hoursWorked: 199
     }
 ]
 
