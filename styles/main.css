@@ -2,8 +2,41 @@
 @import './elements/employee.css';
 @import './elements/equipment.css';
 @import './elements/product.css';
+@import './elements/footer.css';
 
 /* General style commands */
+body {
+    background-image: url("https://images.pexels.com/photos/585750/pexels-photo-585750.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#company {
+    background-color: burlywood;
+}
+
 .container {
     display: flex;
+}
+
+#company {
+    display: flex;
+    font-size: 2.5em;
+    text-align: center;
+}
+
+#company img {
+    width: 10%;
+}
+
+#company p {
+    margin: auto;
+}
+
+#container--side {
+    margin: auto;
+}
+
+.wheatBackground {
+    background-color: wheat;
 }

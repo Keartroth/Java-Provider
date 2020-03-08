@@ -1,7 +1,7 @@
 import { useEmployee } from "./employeeDataProvider.js";
 import { employee } from "./Employee.js";
 
-const contentElement = document.querySelector(".container--employees");
+const contentElement = document.querySelector("#container--employees");
 
 export const employeeList = () => {
     const arrayOfEmployeeObjects = useEmployee();
